@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Makanan</title>
+    <script src="sticky_011.js"></script>
+    <script src="https://kit.fontawesome.com/8f4b47b93d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="koperasi.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <script>
+      function ShowAndHide() {
+          var x = document.getElementById('lebihbanyak');
+          if (x.style.display == 'none') {
+              x.style.display = 'block';
+          } else {
+              x.style.display = 'none';
+          }
+      } 
+      </script>
+      
+
+    <nav class="navbar navbar-expand-lg sticky-top" >
+      <div class="container-fluid">
+
+        <!--Logo-->
+        <nav class="navbar bg-liht rounded">
+          <div class="container">
+            <a class="navbar-brand" href="Home.html" >
+              <img src="Logo.png" href="Home.html" alt="Bootstrap" width="200">
+            </a>
+          </div>
+        </nav>
+
+        <!--Searchbox-->    
+        <form style="height: 50px; " class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Temukan yang anda cari disini" aria-label="Search" style="width: 300px;">
+          <button class="btn-cari" id="tombolcari" type="submit" >Search</button>
+        </form>
+
+        <!--navbar-->
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-5 me-2  my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li>
+              <i #id="artikel" class="fa-solid fa-newspaper fa-3x" href="Artikel Hub.html"></i>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" #id="artikel" aria-current="page" style="color: white; font-size: x-large;" href="Artikel Hub.html">Article</a>
+            </li>
+          </ul> 
+          <ul class="navbar-nav ms-5 me-2  my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li>
+              <i class="fa-solid fa-house-chimney fa-3x"></i>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" #id="artikel" aria-current="page" style="color: white; font-size: x-large;" href="Home.html">Beranda</a>
+            </li>
+          </ul>  
+        </div>
+
+      </div>
+    </nav>
+
+    <!--Kategori-->
+    <nav class="navbar navbar-expand-lg bg-light mt-3 mx-auto" id="kategori" style="width: 80%;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-4" style="background-color: #C2524D; color: white; border-radius: 10px; padding: 10px;" >Makanan Ringan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="Minuman.html">Minuman</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="Alat Tulis.html">Alat Tulis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="Perlengkapan Mandi.html">Perlengkapan Mandi</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link mx-4" href="Barang Lainnya.html">Barang Lainnya</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Barang--> 
+      <div class="container pb-4">
+        <div class="row mt-5 ">
+          
+          <div class="col">
+              <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+              <img src="sarigandum.png" class="card-img-top" id="barang" style="width: 260px; margin-bottom: 35px;">
+              <div class="card-body">
+                <p class="card-text">Sari Gandum 12gr</p>
+                <h5 class="card-title">Rp.8.000</h5>
+              </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                <img src="saltchese.png" class="card-img-top" style="width: 260px;  " >
+                <div class="card-body">
+                  <p class="card-text">Saltchese 200gr</p>
+                  <h5 class="card-title">Rp.6.000</h5>
+                </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style=" width: 18rem; height: 20rem;">               
+              <img src="oreo.png" class="card-img-top" style="width: 260px; margin-bottom: 55px;">
+              <div class="card-body ">
+                <p class="card-text">Oreo 137gr</p>
+                <h5 class="card-title">Rp.8.000</h5>
+              </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+              <img src="roma.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Biskuit Roma 300gr</p>
+                <h5 class="card-title">Rp.9.000</h5>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="container pb-4">
+          <div class="row mt-4">
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                <img src="nabati.png" class="card-img-top" id="barang" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Nabati 40gr</p>
+                  <h5 class="card-title">Rp.2.000</h5>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                  <img src="nextar.png" class="card-img-top" style="width: 260px; margin-bottom: 70px;" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Nextar 20gr</p>
+                    <h5 class="card-title">Rp.2.000</h5>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                <img src="siip.png" class="card-img-top" style="width: 260px; margin-bottom: 35px;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Siip 50gr</p>
+                  <h5 class="card-title">Rp.2.000</h5>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                <img src="fullo.png" class="card-img-top" style="width:200px; margin-bottom: 0px;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Fullo 8gr</p>
+                  <h5 class="card-title">Rp.11.000</h5>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+        <div id="lebihbanyak" STYLE="display:none" class="hilang">
+          <div class="container pb-4">
+            <div class="row mt-3 ">
+              
+              <div class="col">
+                <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                <img src="1.png" class="card-img-top" id="barang" style="width:250px; margin-bottom: 70px;">
+                <div class="card-body">
+                  <p class="card-text">Momogi 8gr</p>
+                  <h5 class="card-title">Rp.1.000</h5>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                <img src="2.png" class="card-img-top"  style="width:240px; margin-bottom: 5px;">
+                <div class="card-body">
+                  <p class="card-text">Tango 130gr</p>
+                  <h5 class="card-title">Rp.6.000</h5>
+                </div>
+              </div>
+          </div>
+    
+          <div class="col">
+            <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style=" height: 20rem;">               
+            <img src="3.png" class="card-img-top" style=" margin-bottom: 30px; margin-top: 50px;">
+            <div class="card-body ">
+              <p class="card-text">Kalpa 24gr</p>
+              <h5 class="card-title">Rp.2.000</h5>
+            </div>
+            </div>
+        </div>
+    
+        <div class="col">
+          <div class="card shadow p-3 mb-5 mt-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+          <img src="4.png" class="card-img-top" style="width:260px; margin-bottom: 40px; margin-top: 40px;">
+          <div class="card-body">
+            <p class="card-text">Bembeng Maxx 32gr</p>
+            <h5 class="card-title">Rp.3.000</h5>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+            <div class="container pb-4">
+              <div class="row mt-4">
+                <div class="col">
+                  <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                  <img src="5.png" class="card-img-top" id="barang" style=" width: 170px; margin-left: 40px;">
+                  <div class="card-body">
+                    <p class="card-text">Superco 12gr</p>
+                    <h5 class="card-title">Rp.2.000</h5>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+                  <img src="6.png" class="card-img-top"  style=" width: 210px; margin-bottom: 10px; margin-left: 25px;">
+                  <div class="card-body">
+                    <p class="card-text">Borobudur 20gr</p>
+                    <h5 class="card-title">Rp.1.000</h5>
+                  </div>
+                </div>
+            </div>
+        
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+              <img src="7.png" class="card-img-top" style=" width: 170px; margin-left: 40px;">
+              <div class="card-body">
+                <p class="card-text">Unibis 270gr</p>
+                <h5 class="card-title">Rp.7.000</h5>
+              </div>
+              </div>
+          </div>
+        
+          <div class="col">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+            <img src="8.png" class="card-img-top" style="width:260px; margin-bottom: 50px; margin-top: 50px;">
+            <div class="card-body">
+              <p class="card-text">Bembeng 18gr</p>
+              <h5 class="card-title">Rp.2.000</h5>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+            <img src="9.png" class="card-img-top" style="width:220px; margin-left: 12px; margin-top:30px; margin-bottom: 30px;">
+            <div class="card-body">
+              <p class="card-text">Medan Jaya 25gr</p>
+              <h5 class="card-title">Rp.2.000</h5>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+            <img src="10.png" class="card-img-top" style="width:220px; margin-left: 15px; margin-top:30px; margin-bottom: 30px;">
+            <div class="card-body">
+              <p class="card-text">Superstar 18gr</p>
+              <h5 class="card-title">Rp.1.000</h5>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+            <img src="11.png" class="card-img-top" style="width:170px; margin-left: 45px; margin-bottom: 5px;">
+            <div class="card-body">
+              <p class="card-text">Chocolatos 245gr</p>
+              <h5 class="card-title">Rp.11.000</h5>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;">               
+            <img src="12.png" class="card-img-top" style="width:100px; margin-left: 75px; margin-bottom: 0px;">
+            <div class="card-body">
+              <p class="card-text">Choki-Choki 10gr</p>
+              <h5 class="card-title">Rp.2.000</h5>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      
+      <!--btn-lebih-->
+      <center>      
+        <button type="button" class="btn" id="lebih" ONCLICK="ShowAndHide()">Lihat Lebih Banyak</button>
+      </center>
+
+      <!--Footer-->
+      <footer class="footer text-center text-lg-start" >
+        <div class="container p-4">
+
+          <div class="row">
+            <div class="col-10">
+              <ul class="list-unstyled mb-0">
+                <li>Salomo Gemayel</li>
+                <li>Yulanda Pasaribu</li>
+                <li>Emalia Putri</li>
+                <li>Indah Silitonga</li>
+                <li>Renatha Hutapea</li>
+              </ul>
+            </div>
+
+            <div class="col-2">
+              <ul class="list-unstyled mb-0 ">
+                <li style="margin-left: 35px;" ><i class="fa-brands fa-instagram fa-3x"></i></li>
+                <li>
+                  <a href="https://instagram.com/ksu.pidel?igshid=N2ZiY2E3YmU=">@Koperasi_itdel</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(251, 251, 251, 0.2);">
+          © 2022 Copyright : 
+          <p >41TRPL Kelompok 1 Proyek Akhir PSW 1</p>
+        </div>  
+      </footer>
+    
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
